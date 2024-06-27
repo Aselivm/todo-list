@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Task Management App",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server public"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

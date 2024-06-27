@@ -15,12 +15,12 @@ import java.io.IOException;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/auth")
+@RequestMapping("/auth/login")
 public class AuthenticationController {
 
   private final AuthenticationService service;
 
-  @PostMapping("/login")
+  @PostMapping()
   public ResponseEntity<AuthenticationResponse> authenticate(
       @RequestBody AuthenticationRequest request
   ) {
